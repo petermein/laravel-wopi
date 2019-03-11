@@ -1,0 +1,24 @@
+{
+    "name": "petermein/laravel-wopi",
+    "description": "An implementation office Office365 WOPI for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Mein",
+            "email": "peter@infratron.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Infratron\\laravelWOPI\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
